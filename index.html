@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+<body>
+    <nav id="navbar">
+        <div >
+            <img src="img/logo.png" alt="IMDb Logo" id="logo">
+        </div>
+
+        <div id="menu" >
+            <i class="bi bi-list"></i>
+            Menu
+        </div>
+
+        <div class="nav-search">
+            <select class="search-select">
+              <option> All</option>
+
+            </select>
+            <input placeholder="Search IMDb" class="search-input">
+            <div class="search-icon">
+             <i class="bi bi-search"></i>
+            </div>
+          </div>
+
+          <div >
+            <img src="img/nav3.png" alt="IMDbPro" id="IMDbPro" >
+        </div>
+        <div class="here">
+        </div>
+        <div class="watchlist" >
+            <i class="bi bi-bookmark-plus-fill"></i>
+            Watchlist 
+        </div>
+        <div class="sign-in" >
+            Sign In
+        </div>
+        <div class=>
+            <select class="language-select">
+              <option> EN</option>
+            </select>
+        </div>
+    </nav>
+
+<!-- MAIN CONTENT OF THE PAGE -->
+    <main>
+
+        <div class="main-content">
+            <!-- SLIDER -->
+            <div class="slider">
+                <div id="frame">
+                    <!-- Radio buttons -->
+                    <input type="radio" name="frame" id="frame1" checked />
+                    <input type="radio" name="frame" id="frame2" />
+                    <input type="radio" name="frame" id="frame3" />
+                    <input type="radio" name="frame" id="frame4" />
+            
+                    <!-- Slides container -->
+                        <div id="slides">
+                            <div id="overflow">
+                                <div class="inner">
+                                    <!-- slide 1 -->
+                                    <div class="frame frame_1 ani3">
+                                    
+                                        <div class="poster-container">
+                                            <div class="part1">
+                                                <div class="icon">
+                                                    <span class="bi bi-bookmark-plus-fill"></span>
+                                                </div>
+                                            <img class="poster" src="img/poster1.jpg" alt="Movie 1 Poster">
+                                            </div>
+                                        
+                                            <div class="vid-title">
+                                                <div class="playbtn ani2">
+                                                    <i class="bi bi-play-circle"></i>
+                                                </div>
+                                                <div class="description">
+                                                    <div class="title">
+                                                        'Dum Laga Ke Haisha' scene 
+                                                    </div>
+                                                    <div class="title">
+                                                        Breakdown
+                                                    </div>
+                                                    <div class="subtitle">
+                                                        by Ayudhman Khurana
+                                                    </div>
+                                                    <div class="reaction">
+                                                        <div class="likes">
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"> 7</i>
+                                                        </div>
+                                                        <div class="heart">
+                                                            <i class="bi bi-heart-fill"></i>
+                                                        </div>
+                                                        <div class="smily">
+                                                            <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>   
+                                        </div>
+                                    </div>
+                                    <!-- SLide 2 -->
+                                    <div class="frame frame_2 ani3">
+                                        
+                                        <div class="poster-container">
+                                            <div class="part1">
+                                                <div class="icon">
+                                                    <span class="bi bi-bookmark-plus-fill"></span>
+                                                </div>
+                                                <img class="poster" src="img/poster1.jpg" alt="Movie 2 Poster">
+                                            </div>
+            
+                                            <div class="vid-title">
+                                                <div class="playbtn ani2">
+                                                    <i class="bi bi-play-circle"></i>
+                                                </div>
+                                                <div class="description">
+                                                    <div class="title">
+                                                        Vicky Kaushal Breaksdown 
+                                                    </div>
+                                                    <div class="title">
+                                                        scene from 'Chhaava'
+                                                    </div>
+                                                    <div class="subtitle">
+                                                        And exclusive behind the scene stories
+                                                    </div>
+                                                    <div class="reaction">
+                                                        <div class="likes">
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"> 7</i>
+                                                        </div>
+                                                        <div class="heart">
+                                                            <i class="bi bi-heart-fill"></i>
+                                                        </div>
+                                                        <div class="smily">
+                                                            <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- SLide 3-->
+                                    <div class="frame frame_3 ani3">
+                                        
+                                        <div class="poster-container">
+                                            <div class="part1">
+                                                <div class="icon">
+                                                    <span class="bi bi-bookmark-plus-fill"></span>
+                                                </div>
+                                                <img class="poster" src="img/poster2.jpg" alt="Movie 3 Poster">
+                                            </div>
+                                            <div class="vid-title">
+                                                <div class="playbtn ani2">
+                                                    <i class="bi bi-play-circle"></i>
+                                                </div>
+                                                <div class="description">
+                                                    <div class="title">
+                                                        Best Moments from the 2025 
+                                                    </div>
+                                                    <div class="title">
+                                                        Oscars
+                                                    </div>
+                                                    <div class="subtitle">
+                                                        'Anora' Sweeps,Zoe Weeps ,and More
+                                                    </div>
+                                                    <div class="reaction">
+                                                        <div class="likes">
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"> 356</i>
+                                                        </div>
+                                                        <div class="heart">
+                                                            <i class="bi bi-heart-fill"></i>
+                                                        </div>
+                                                        <div class="smily">
+                                                            <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- SLide 4 -->
+                                    <div class="frame frame_4 ani3">
+                                        
+                                        <div class="poster-container">
+                                            <div class="part1">
+                                                <div class="icon">
+                                                    <span class="bi bi-bookmark-plus-fill"></span>
+                                                </div>
+                                                <img class="poster" src="img/poster1.jpg" alt="Movie 4 Poster">
+                                            </div>
+                                            
+                                            <div class="vid-title">
+                                                <div class="playbtn ani2">
+                                                    <i class="bi bi-play-circle"></i>
+                                                </div>
+                                                <div class="description">
+                                                    <div class="title">
+                                                        'Picture This' Made Simone 
+                                                    </div>
+                                                    <div class="title">
+                                                        Ashley’s Dreams Come True
+                                                    </div>
+                                                    <div class="subtitle">
+                                                        Watch the interview 
+                                                    </div>
+                                                    <div class="reaction">
+                                                        <div class="likes">
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"> 13</i>
+                                                        </div>
+                                                        <div class="heart">
+                                                            <i class="bi bi-heart-fill"></i>
+                                                        </div>
+                                                        <div class="smily">
+                                                            <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+            
+                    <!-- Left & Right Navigation Arrows -->
+                    <div id="controls">
+                        <label for="frame4" class="prev">&#10094;</label> <!-- Left arrow -->
+                        <label for="frame2" class="next ">&#10095;</label> <!-- Right arrow -->
+            
+                        <label for="frame1" class="prev">&#10094;</label>
+                        <label for="frame3" class="next">&#10095;</label>
+            
+                        <label for="frame2" class="prev">&#10094;</label>
+                        <label for="frame4" class="next">&#10095;</label>
+            
+                        <label for="frame3" class="prev">&#10094;</label>
+                        <label for="frame1" class="next">&#10095;</label>
+                    </div>
+            
+                </div>
+            </div>
+
+
+            <!-- TRAILERS --> 
+            <div class="trailers">
+                <div class="upnext">
+                    Up Next
+                </div>
+                <div class="trailer-container">
+                    <div class="trailer">
+                        
+                        <div class="part1">
+                            
+                            <img class="trailer-poster" src="img/poster1.jpg" alt="Movie 2 Poster">
+                        </div>
+
+                        <div class="tariler-vid-title">
+                            <div class="trailer-playbtn ani2">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="trailer-description">
+                                <div class="trailer-title">
+                                    Dum Laga Ke Haisha scene 
+                                </div>
+                                <div class="trailer-title">
+                                    Breakdown
+                                </div>
+                                <div class="trailer-subtitle">
+                                    Watch the trailer
+                                </div>
+                                <div class="trailer-reaction">
+                                    <div class="likes">
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"> 7</i>
+                                    </div>
+                                    <div class="heart">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </div>
+                                    <div class="smily">
+                                        <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="trailer">
+                        <div class="part1">
+                            
+                            <img class="trailer-poster" src="img/poster1.jpg" alt="Movie 2 Poster">
+                        </div>
+
+                        <div class="tariler-vid-title">
+                            <div class="trailer-playbtn ani2">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="trailer-description">
+                                <div class="trailer-title">
+                                    'Picture This' Made Simone 
+                                </div>
+                                <div class="trailer-title">
+                                    Ashley’s Dreams Come True
+                                </div>
+                                <div class="trailer-subtitle">
+                                    Watch the interview
+                                </div>
+                                <div class="trailer-reaction">
+                                    <div class="likes">
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"> 7</i>
+                                    </div>
+                                    <div class="heart">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </div>
+                                    <div class="smily">
+                                        <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="trailer">
+                        <div class="part1">
+                            
+                            <img class="trailer-poster" src="img/poster2.jpg" alt="Movie 2 Poster">
+                        </div>
+
+                        <div class="tariler-vid-title">
+                            <div class="trailer-playbtn ani2">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="trailer-description">
+                                <div class="trailer-title">
+                                    Best Moments from the 2025 
+                                </div>
+                                <div class="trailer-title">
+                                    Oscars
+                                </div>
+                                <div class="trailer-subtitle">
+                                    'Anora' Sweeps,Zoe Weeps ,and More
+                                </div>
+                                
+                               
+                                <div class="trailer-reaction">
+                                    <div class="likes">
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"> 7</i>
+                                    </div>
+                                    <div class="heart">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </div>
+                                    <div class="smily">
+                                        <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="browse ani2 ">
+                    Browse trailers &#10095;
+                </div>
+            </div>  
+        </div>
+    <!-- FEATURED TODAY  -->
+        <div class="featured">
+            <div class="heading">
+                Featured today
+            </div>
+            <div id="frame-2">
+                <input type="radio" name="frame2" id="frame5" checked />
+                <input type="radio" name="frame2" id="frame6" />
+                <input type="radio" name="frame2" id="frame7" />
+               
+                <div id="slides-2">
+                    <div id="slides-2-overflow">
+                        <div class="inner-2">
+                            <div class="slides-2-frame slides-2-frame1">
+                                <div class="frame-content">
+                                    <div class="frame-card">
+                                        <div class="today_frames">
+                                            <div id="today-img1"  class="today-img ani3">
+                                               
+                                                 <i class="bi bi-list"></i> 
+                                            </div>
+                                                <div class="today-headings">
+                                                    <div class="today-title ani1"> Staff picks What to watch in march</div>
+                                                    <div class="today-subtitle ani1">see our picks</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="frame-card">
+                                        <div class="today_frames">
+                                            <div id="today-img2"  class="today-img ani3">
+                                               
+                                                <i class="bi bi-list"></i>
+                                            </div>
+                                                <div class="today-headings">
+                                                    <div class="today-title ani1"> Movies Directed by Women in 2025</div>
+                                                    <div class="today-subtitle ani1">see the full list</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides-2-frame slides-2-frame2">
+                                <div class="frame-content">
+                                    <div class="frame-card">
+                                        <div class="today_frames">
+                                            <div id="today-img3" class="today-img ani3 ">
+                                             
+                                                 <i class="bi bi-list"></i> 
+                                            </div>
+                                                <div class="today-headings">
+                                                    <div class="today-title ani1"> 2025 SXSW Film & TV Festival Cheat Sheet</div>
+                                                    <div class="today-subtitle ani1">see our picks</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="frame-card">
+                                        <div class="today_frames">
+                                            <div id="today-img4"  class="today-img ani3 ">
+                                            
+                                                <i class="bi bi-list"></i>
+                                            </div>
+                                                <div class="today-headings">
+                                                    <div class="today-title ani1"> Best Photos on Internet Right Now </div>
+                                                    <div class="today-subtitle ani1">see the gallery</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides-2-frame slides-2-frame3">
+                                <div class="frame-content">
+                                    <div class="frame-card">
+                                        <div class="today_frames">
+                                            <div id="today-img5"  class="today-img ani3 ">
+                                                 <i class="bi bi-list"></i> 
+                                            </div>
+                                                <div class="today-headings">
+                                                    <div class="today-title ani1"> The IMDb Photo Studio At SXSW 2025</div>
+                                                    <div class="today-subtitle ani1">see the gallery</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="frame-card">
+                                        <div class="today_frames">
+                                            <div id="today-img6"  class="today-img ani3">
+                                             
+                                                <i class="bi bi-list"></i>
+                                            </div>
+                                                <div class="today-headings">
+                                                    <div class="today-title ani1">   Double Duty : Action Directors</div>
+                                                    <div class="today-subtitle ani1">see the gallery</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="controls2">   
+                    <label for="frame5" class="next">&#10095;</label> 
+                    <label for="frame6" class="next">&#10095;</label> 
+                    <label for="frame7" class="next">&#10095;</label>
+                </div>
+                
+            </div> 
+        
+        </div>
+    <!-- MOST POPULAR CELEBRTITIES -->
+     <div class="celebrities">
+        <div class="celeb-heading">
+            <div class="celeb-title">
+                <div class="c-line"></div>
+                Most Popular Celebrities  
+                <div class="arrow">&#10095;</div>
+            </div>
+            <div class="celeb-cards">
+                
+                <div class="celeb-card">
+                    <div class="celeb-subtitle">
+                        TOP RISING
+                    </div>
+                    <div id="celeb-img-1" class="celeb-img ani3"></div>
+                    <div class="celeb-rank">2 (<i class="bi bi-caret-up-fill" style="color:green;"></i>
+                        1,344)</div>
+                    <div class="celeb-name">Gene Hackman</div>
+                </div>
+                <div class="celeb-card">
+                    <div class="celeb-subtitle">
+                        
+                      </div>
+                    <div id="celeb-img-2"  class="celeb-img ani3"></div>
+                    <div class="celeb-rank">46(<i class="bi bi-caret-up-fill" style="color:green;"></i>630)</div>
+                    <div class="celeb-name">Tia Leoni</div>
+                </div>
+                <div class="celeb-card">
+                    <div class="celeb-subtitle">
+                      BY RANKING
+                    </div>
+                    <div id="celeb-img-3"  class="celeb-img ani3"></div>
+                    <div class="celeb-rank">1 (<i class="bi bi-caret-up-fill" style="color:green;"></i>261)</div>
+                    <div class="celeb-name">Michelle Tratchenberg</div>
+                </div>
+                <div class="celeb-card">
+                    <div class="celeb-subtitle">
+                      
+                      </div>
+                    <div id="celeb-img-1" class="celeb-img ani3" ></div>
+                    <div class="celeb-rank">2 (<i class="bi bi-caret-up-fill" style="color:green;"></i>1,344)</div>
+                    <div class="celeb-name">Gene Hackman</div>
+                </div>
+                <div class="celeb-card">
+                    <div class="celeb-subtitle">
+                      
+                      </div>
+                    <div id="celeb-img-5" class="celeb-img ani3"></div>
+                    <div class="celeb-rank">3 (<i class="bi bi-caret-down-fill" style="color:red;"></i>2)</div>
+                    <div class="celeb-name">Aimee Lou Wood</div>
+                </div>
+                <div class="celeb-card">
+                    <div class="celeb-subtitle">
+                        
+                      </div>
+                    <div id="celeb-img-6" class="celeb-img ani3"></div>
+                    <div class="celeb-rank">4 (<i class="bi bi-caret-down-fill" style="color:red;"></i>1)</div>
+                    <div class="celeb-name">Michelle Monaghan</div>
+                </div>
+            </div>    
+        </div>
+     </div>
+     <!--TOP 10 for the week-->
+     <div class="top10-list">
+        <div class="top10-heading">
+           
+            <div class="c-line"></div>
+            Top 10 on IMDb this week
+        </div>
+        <div class="top-10-cards">
+            <div class="top-10-card">
+                <div id="top10-img1" class="top-img ani3">
+                    <div class="top10-icon">
+                         <span class="bi bi-bookmark-plus-fill"></span>
+                    </div>
+                </div>  
+                <div class="top10-info">
+                    <div class="top10-rank">
+                        <div class="top10-rate">
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            8.0
+                            <div class="star2">
+                                  <i class="bi bi-star"></i>
+                            </div>  
+                        </div>
+                        <div class="top10-subtitle">1.The White Lotus</div>     
+                    </div>
+                    <div class="top-10-btns">
+                        <div class="top10-watch">
+                            <i class="bi bi-plus-lg"></i>Watchlist</div>
+                        <div class="top10-trailer">
+                            <i class="bi bi-play-fill"></i>Trailer</div>
+                    </div> 
+                </div> 
+            </div>
+            <div class="top-10-card">
+                <div id="top10-img2" class="top-img ani3">
+                    <div class="top10-icon">
+                         <span class="bi bi-bookmark-plus-fill"></span>
+                    </div>
+                </div>  
+                <div class="top10-info">
+                    <div class="top10-rank">
+                        <div class="top10-rate">
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            7.5
+                            <div class="star2">
+                                  <i class="bi bi-star"></i>
+                            </div>  
+                        </div>
+                        <div class="top10-subtitle">2.Zero Day</div>     
+                    </div>
+                    <div class="top-10-btns">
+                        <div class="top10-watch">
+                            Watch Options</div>
+                        <div class="top10-trailer">
+                            <i class="bi bi-play-fill"></i>Trailer</div>
+                    </div> 
+                </div> 
+            </div>
+            <div class="top-10-card">
+                <div id="top10-img3" class="top-img ani3">
+                    <div class="top10-icon">
+                         <span class="bi bi-bookmark-plus-fill"></span>
+                    </div>
+                </div>  
+                <div class="top10-info">
+                    <div class="top10-rank">
+                        <div class="top10-rate">
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            8.7
+                            <div class="star2">
+                                  <i class="bi bi-star"></i>
+                            </div>  
+                        </div>
+                        <div class="top10-subtitle">3.Severance</div>     
+                    </div>
+                    <div class="top-10-btns">
+                        <div class="top10-watch">
+                            Watch Options</div>
+                        <div class="top10-trailer">
+                            <i class="bi bi-play-fill"></i>Trailer</div>
+                    </div> 
+                </div> 
+            </div>
+          
+            <div class="top-10-card">
+                <div id="top10-img4" class="top-img ani3">
+                    <div class="top10-icon">
+                         <span class="bi bi-bookmark-plus-fill"></span>
+                    </div>
+                </div>  
+                <div class="top10-info">
+                    <div class="top10-rank">
+                        <div class="top10-rate">
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            8.0
+                            <div class="star2">
+                                  <i class="bi bi-star"></i>
+                            </div>  
+                        </div>
+                        <div class="top10-subtitle">4.Reacher</div>     
+                    </div>
+                    <div class="top-10-btns">
+                        <div class="top10-watch">
+                            Watch Options</div>
+                        <div class="top10-trailer">
+                            <i class="bi bi-play-fill"></i>Trailer</div>
+                    </div> 
+                </div> 
+            </div>
+            <div class="top-10-card">
+                <div id="top10-img5" class="top-img ani3">
+                    <div class="top10-icon">
+                         <span class="bi bi-bookmark-plus-fill"></span>
+                    </div>
+                </div>  
+                <div class="top10-info">
+                    <div class="top10-rank">
+                        <div class="top10-rate">
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            7.7
+                            <div class="star2">
+                                  <i class="bi bi-star"></i>
+                            </div>  
+                        </div>
+                        <div class="top10-subtitle">5.Paradise</div>     
+                    </div>
+                    <div class="top-10-btns">
+                        <div class="top10-watch">
+                            Watch Options</div>
+                        <div class="top10-trailer">
+                            <i class="bi bi-play-fill"></i>Trailer</div>
+                    </div> 
+                </div> 
+            </div>
+            <div class="top-10-card">
+                <div id="top10-img6" class="top-img ani3">
+                    <div class="top10-icon">
+                         <span class="bi bi-bookmark-plus-fill"></span>
+                    </div>
+                </div>  
+                <div class="top10-info">
+                    <div class="top10-rank">
+                        <div class="top10-rate">
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            7.1
+                            <div class="star2">
+                                  <i class="bi bi-star"></i>
+                            </div>  
+                        </div>
+                        <div class="top10-subtitle">6.The George</div>     
+                    </div>
+                    <div class="top-10-btns">
+                        <div class="top10-watch">
+                            Watch Options</div>
+                        <div class="top10-trailer">
+                            <i class="bi bi-play-fill"></i>Trailer</div>
+                    </div> 
+                </div> 
+            </div>
+               
+        </div>
+     </div>
+     <div>
+        <a id="signin"> Sign in for more access</a>
+    </div>
+    </main>
+
+
+
+
+
+
+
+
+  
+    <footer id="footer">
+        
+        <div id="socials">
+            <div id="social-links">
+                <div class="footer-heading">
+                    Follow IMDb on social
+                </div>
+                <div>
+                    <ul class="social-icons">
+                        <li class="social-icon ">
+                            <i class="bi bi-tiktok"></i>
+                        </li>
+                        <li class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                        </li>
+                        <li class="social-icon">
+                            <i class="bi bi-twitter-x"></i>
+                        </li>
+                        <li class="social-icon">
+                            <i class="bi bi-youtube"></i>
+                        </li>
+                        <li class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="app-link">
+                <div id="app-link-text">
+                    <div class="footer-heading">Get the IMDb app</div>
+                    <div class="footer-subtext">For Andriod and iOS</div>
+                </div>
+                <div id="qr-link">
+                    <img src="img/appQR.png" alt="Get the IMDb app">
+                </div>
+            </div>
+        </div>
+        <div class="footer-links">
+            <ul class="footer-list">
+                <li class="footer-item ani1">
+                    Help 
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </li>
+                <li class="footer-item ani1">
+                    Site Inde
+                    <i class="bi bi-box-arrow-up-right"> x</i>
+                </li>
+                <li class="footer-item ani1">
+                    IMDbPro
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </li>
+                <li class="footer-item ani1">
+                    Box Office Mojo
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </li>
+                <li class="footer-item ani1">
+                    License IMDb Data
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </li>
+            </ul>
+        </div>
+         <div class="footer-links">
+            <ul class="footer-list">
+                <li class="footer-item ani1">
+                   Press Room
+                </li>
+                <li class="footer-item ani1">
+                    Advertising
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </li>
+                <li class="footer-item ani1">
+                    Jobs<i class="bi bi-box-arrow-up-right"> </i>
+                </li>
+                <li class="footer-item ani1">
+                    Conditions of Use
+                </li>
+                <li class="footer-item ani1">
+                    Privacy Policy
+                </li>
+                <li class="footer-item ani1">
+                    Your Ads Privacy Choice
+                </li>
+            </ul>
+        </div>
+        <div class="footer-logo-container">
+            an 
+            
+            <img src="img/footLOGO.png" alt="Amazon Logo">
+            
+            company
+        </div>
+        <div class="copyright">© 1990-2025 by IMDb.com, Inc.</div>
+    </div>
+    </footer>
+</body>
+</html>
