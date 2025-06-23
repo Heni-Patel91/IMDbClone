@@ -3,8 +3,7 @@
 A clean and responsive clone of the [IMDb](https://www.imdb.com) website built using pure HTML and CSS. This project showcases a clean layout for movie listings, similar to the popular IMDb interface. It's a front-end-only project designed to demonstrate layout and styling skills.
 Built With
 - HTML5
-- CSS3 (Flexbox & Grid)
-- Google Fonts (optional)
+- CSS (Flexbox & Grid)
 - Font Awesome (for icons)
 
 ---
